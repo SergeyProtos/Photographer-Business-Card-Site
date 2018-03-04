@@ -1,0 +1,222 @@
+body {
+background: url("https://previews.123rf.com/images/bowlingman/bowlingman1510/bowlingman151000092/46734453-old-camera-in-retro-vintage-background-design.jpg") no-repeat center center fixed;
+background-size: cover;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+color: white;
+}
+
+header {
+    display: flex;
+    margin: 15px auto;
+    width: 600px;
+    color: white;
+}
+
+header div {
+    flex: 3;
+    text-align: center
+}
+
+#about, #portfolio, #seasons {
+    font-size: 20px;
+    cursor: pointer
+}
+
+#about:hover, #portfolio:hover, #seasons:hover {
+    color: yellow;
+}
+
+.about {
+      display: none;
+    }
+
+.aboutPhoto1 {
+    flex: 3;
+    padding: 30px;
+}
+
+.aboutPhoto1 img {
+    width: 300px;
+    height: auto;
+    border: solid white 2px;
+}
+
+.aboutMyself {
+    flex: 9;
+    text-align: justify;
+    padding: 25px 100px 0px 25px;
+    color: #663300;
+}
+
+.aboutMyStory {
+    background-color: lightgrey;
+    border: solid white 2px;
+    padding: 10px;
+}
+
+.aboutContacts {
+    background-color: lightgrey;
+    border: solid white 2px;
+    padding: 10px;
+    width: 350px;
+}
+
+.aboutPhoto2 {
+    position: absolute;
+    bottom: 10px;
+    right: 150px;
+}
+
+.aboutPhoto2 img {
+    height: 275px;
+    border: solid white 2px;
+}
+
+.facebook img {
+    width: 30px;
+}
+
+.portfolio {
+    display: flex;
+    width: 100%;
+  }
+
+.portfolio a {
+    display: none;
+  }
+
+.portfolio-column-left {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+
+.portfolio-column-center {
+    position: absolute;
+    top: 50px;
+    left: 35%;
+    width: 420px;
+    text-align: center;
+}
+
+.portfolio-column-right {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+}
+
+.portfolio-row {
+    display: flex;
+}
+
+.gallery-photo {
+    height: 150px;
+    cursor: pointer;
+    margin: 15px;
+    flex: 6;
+}
+
+.shift {
+    margin-left: 50px;
+}
+
+.gallery-photo:hover {
+    height: 175px;
+    transition-delay: 50ms;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.gallery-photo img {
+    height: 100%;
+    border: solid white 2px;
+}
+
+.show-up {
+    height: 500px;
+    width: auto;
+ }
+
+.show-up img {
+    height: 100%;
+    border: solid white 2px;
+}
+
+.show-up-text {
+    position: absolute;
+    bottom: -80px;
+    left: -120px;
+    width: 700px;
+    background-color: lightgray;
+    color: #663300;
+    border: solid white 2px;
+}
+
+.forward {
+    position: absolute;
+    top: 40%;
+    right: -20%;
+    width: 50px;
+    border: solid white 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.backward {
+    position: absolute;
+    top: 40%;
+    left: -20%;
+    width: 50px;
+    border: solid white 2px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
+
+.forward:hover, .backward:hover {
+    background-color: #ffff99;
+}
+
+.forward img, .backward img {
+    width: 100%;
+}
+
+.seasons {
+    display: none;
+}
+
+.slider-photo {
+    display: none;
+}
+
+/* slider */
+
+.slider-show-up {
+    position: relative;
+    top: 10px;
+    left: 32%; 
+    width: 500px;
+    text-align: center;
+}
+
+.slider-show-up img {
+    width: auto;
+    height: 450px;
+    border: solid white 2px;
+ }
+
+ .slider-show-up a {
+    position: absolute;
+    bottom: -25%;
+    left: 20%;
+    display: block;
+    width: 300px;
+    text-align: center;
+    background-color: lightgray;
+    color: #663300;
+    border: solid white 2px; 
+}
+
+ /* slider */
